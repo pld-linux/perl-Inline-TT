@@ -24,7 +24,7 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::TT
 Summary(zh_CN):	Inline::TT Perl Ä£¿é
 Name:		perl-Inline-TT
 Version:	0.02
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -32,7 +32,7 @@ BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Inline >= 0.43
 BuildRequires:	perl-Template-Toolkit >= 2.07
 BuildRequires:	perl-Test-Simple >= 0.32
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -50,7 +50,8 @@ jêzyk. A Inline::TT pozwala na pisanie procedur Perla w jêzyku TT.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 %{!?_without_tests:%{__make} test}
 
@@ -66,5 +67,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/Inline/TT.pm
+%{perl_vendorlib}/Inline/TT.pm
 %{_mandir}/man3/*
