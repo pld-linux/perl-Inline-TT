@@ -41,7 +41,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Inline::TT  - use TT BLOCK as Perl subs. Template-Toolkit is not just
 a Templating Engine. It's a language. Inline::TT is a Inline plugin to
 allow you to code your Perl subs in TT.
-    
+
 %description -l pl
 Modu³ Inline::TT - pozwalaj±cy na u¿ywanie bloków TT jako procedur
 Perla. Template-Toolkit to nie tylko mechanizm obs³uguj±cy wzorce - to
@@ -52,7 +52,7 @@ jêzyk. A Inline::TT pozwala na pisanie procedur Perla w jêzyku TT.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 
