@@ -14,7 +14,7 @@ Summary(fr):	Module Perl Inline::TT
 Summary(it):	Modulo di Perl Inline::TT
 Summary(ja):	Inline::TT Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Inline::TT ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Inline::TT
+Summary(nb):	Perlmodul Inline::TT
 Summary(pl):	Modu³ Perla Inline::TT
 Summary(pt):	Módulo de Perl Inline::TT
 Summary(pt_BR):	Módulo Perl Inline::TT
