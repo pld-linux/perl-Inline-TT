@@ -1,8 +1,26 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Inline
-%define	pnam	TT
-Summary:	Inline::TT perl module
-Summary(pl):	Modu³ perla Inline::TT
+%define		pdir	Inline
+%define		pnam	TT
+Summary:	Inline::TT Perl module
+Summary(cs):	Modul Inline::TT pro Perl
+Summary(da):	Perlmodul Inline::TT
+Summary(de):	Inline::TT Perl Modul
+Summary(es):	Módulo de Perl Inline::TT
+Summary(fr):	Module Perl Inline::TT
+Summary(it):	Modulo di Perl Inline::TT
+Summary(ja):	Inline::TT Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Inline::TT ÆŞ ¸ğÁÙ
+Summary(no):	Perlmodul Inline::TT
+Summary(pl):	Modu³ Perla Inline::TT
+Summary(pt):	Módulo de Perl Inline::TT
+Summary(pt_BR):	Módulo Perl Inline::TT
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::TT
+Summary(sv):	Inline::TT Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::TT
+Summary(zh_CN):	Inline::TT Perl Ä£¿é
 Name:		perl-Inline-TT
 Version:	0.01
 Release:	1
@@ -36,6 +54,7 @@ perl Makefile.PL
 
 %install
 rm -rf $RPM_BUILD_ROOT
+%{!?_without_tests:%{__make} test}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
