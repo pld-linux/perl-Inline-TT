@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Inline::TT
 Summary(zh_CN):	Inline::TT Perl дё©И
 Name:		perl-Inline-TT
 Version:	0.02
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
