@@ -1,6 +1,7 @@
 #
 # Conditional build:
 # _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Inline
 %define		pnam	TT
@@ -22,7 +23,7 @@ Summary(sv):	Inline::TT Perlmodul
 Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::TT
 Summary(zh_CN):	Inline::TT Perl Ä£¿é
 Name:		perl-Inline-TT
-Version:	0.01
+Version:	0.02
 Release:	1
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
@@ -51,10 +52,10 @@ jêzyk. A Inline::TT pozwala na pisanie procedur Perla w jêzyku TT.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{!?_without_tests:%{__make} test}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
