@@ -25,7 +25,8 @@ Summary(zh_CN):	Inline::TT Perl Ä£¿é
 Name:		perl-Inline-TT
 Version:	0.02
 Release:	2
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	280dd7a08c533af56259dafb7770588c
