@@ -6,22 +6,22 @@
 %define		pdir	Inline
 %define		pnam	TT
 Summary:	Inline::TT Perl module
-Summary(cs):	Modul Inline::TT pro Perl
-Summary(da):	Perlmodul Inline::TT
-Summary(de):	Inline::TT Perl Modul
-Summary(es):	Módulo de Perl Inline::TT
-Summary(fr):	Module Perl Inline::TT
-Summary(it):	Modulo di Perl Inline::TT
-Summary(ja):	Inline::TT Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Inline::TT ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Inline::TT
-Summary(pl):	Modu³ Perla Inline::TT
-Summary(pt):	Módulo de Perl Inline::TT
-Summary(pt_BR):	Módulo Perl Inline::TT
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::TT
-Summary(sv):	Inline::TT Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::TT
-Summary(zh_CN):	Inline::TT Perl Ä£¿é
+Summary(cs.UTF-8):   Modul Inline::TT pro Perl
+Summary(da.UTF-8):   Perlmodul Inline::TT
+Summary(de.UTF-8):   Inline::TT Perl Modul
+Summary(es.UTF-8):   MÃ³dulo de Perl Inline::TT
+Summary(fr.UTF-8):   Module Perl Inline::TT
+Summary(it.UTF-8):   Modulo di Perl Inline::TT
+Summary(ja.UTF-8):   Inline::TT Perl ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
+Summary(ko.UTF-8):   Inline::TT í„ ëª¨ì¤„
+Summary(nb.UTF-8):   Perlmodul Inline::TT
+Summary(pl.UTF-8):   ModuÅ‚ Perla Inline::TT
+Summary(pt.UTF-8):   MÃ³dulo de Perl Inline::TT
+Summary(pt_BR.UTF-8):   MÃ³dulo Perl Inline::TT
+Summary(ru.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Inline::TT
+Summary(sv.UTF-8):   Inline::TT Perlmodul
+Summary(uk.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Inline::TT
+Summary(zh_CN.UTF-8):   Inline::TT Perl æ¨¡å—
 Name:		perl-Inline-TT
 Version:	0.02
 Release:	3
@@ -43,10 +43,10 @@ Inline::TT  - use TT BLOCK as Perl subs. Template-Toolkit is not just
 a Templating Engine. It's a language. Inline::TT is a Inline plugin to
 allow you to code your Perl subs in TT.
 
-%description -l pl
-Modu³ Inline::TT - pozwalaj±cy na u¿ywanie bloków TT jako procedur
-Perla. Template-Toolkit to nie tylko mechanizm obs³uguj±cy wzorce - to
-jêzyk. A Inline::TT pozwala na pisanie procedur Perla w jêzyku TT.
+%description -l pl.UTF-8
+ModuÅ‚ Inline::TT - pozwalajÄ…cy na uÅ¼ywanie blokÃ³w TT jako procedur
+Perla. Template-Toolkit to nie tylko mechanizm obsÅ‚ugujÄ…cy wzorce - to
+jÄ™zyk. A Inline::TT pozwala na pisanie procedur Perla w jÄ™zyku TT.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
