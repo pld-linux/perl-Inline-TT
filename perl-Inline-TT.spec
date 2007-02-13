@@ -6,22 +6,22 @@
 %define		pdir	Inline
 %define		pnam	TT
 Summary:	Inline::TT Perl module
-Summary(cs.UTF-8):   Modul Inline::TT pro Perl
-Summary(da.UTF-8):   Perlmodul Inline::TT
-Summary(de.UTF-8):   Inline::TT Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Inline::TT
-Summary(fr.UTF-8):   Module Perl Inline::TT
-Summary(it.UTF-8):   Modulo di Perl Inline::TT
-Summary(ja.UTF-8):   Inline::TT Perl モジュール
-Summary(ko.UTF-8):   Inline::TT 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Inline::TT
-Summary(pl.UTF-8):   Moduł Perla Inline::TT
-Summary(pt.UTF-8):   Módulo de Perl Inline::TT
-Summary(pt_BR.UTF-8):   Módulo Perl Inline::TT
-Summary(ru.UTF-8):   Модуль для Perl Inline::TT
-Summary(sv.UTF-8):   Inline::TT Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Inline::TT
-Summary(zh_CN.UTF-8):   Inline::TT Perl 模块
+Summary(cs.UTF-8):	Modul Inline::TT pro Perl
+Summary(da.UTF-8):	Perlmodul Inline::TT
+Summary(de.UTF-8):	Inline::TT Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Inline::TT
+Summary(fr.UTF-8):	Module Perl Inline::TT
+Summary(it.UTF-8):	Modulo di Perl Inline::TT
+Summary(ja.UTF-8):	Inline::TT Perl モジュール
+Summary(ko.UTF-8):	Inline::TT 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Inline::TT
+Summary(pl.UTF-8):	Moduł Perla Inline::TT
+Summary(pt.UTF-8):	Módulo de Perl Inline::TT
+Summary(pt_BR.UTF-8):	Módulo Perl Inline::TT
+Summary(ru.UTF-8):	Модуль для Perl Inline::TT
+Summary(sv.UTF-8):	Inline::TT Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Inline::TT
+Summary(zh_CN.UTF-8):	Inline::TT Perl 模块
 Name:		perl-Inline-TT
 Version:	0.02
 Release:	3
