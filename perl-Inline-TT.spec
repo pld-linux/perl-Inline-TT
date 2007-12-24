@@ -23,13 +23,13 @@ Summary(sv.UTF-8):	Inline::TT Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl Inline::TT
 Summary(zh_CN.UTF-8):	Inline::TT Perl 模块
 Name:		perl-Inline-TT
-Version:	0.02
-Release:	3
+Version:	0.07
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	280dd7a08c533af56259dafb7770588c
+# Source0-md5:	02905066df2cdb5178c13d00dea3c0c3
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Inline >= 0.43
 BuildRequires:	perl-Template-Toolkit >= 2.07
