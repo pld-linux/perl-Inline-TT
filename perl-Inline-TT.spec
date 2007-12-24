@@ -5,35 +5,21 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Inline
 %define		pnam	TT
-Summary:	Inline::TT Perl module
-Summary(cs.UTF-8):	Modul Inline::TT pro Perl
-Summary(da.UTF-8):	Perlmodul Inline::TT
-Summary(de.UTF-8):	Inline::TT Perl Modul
-Summary(es.UTF-8):	Módulo de Perl Inline::TT
-Summary(fr.UTF-8):	Module Perl Inline::TT
-Summary(it.UTF-8):	Modulo di Perl Inline::TT
-Summary(ja.UTF-8):	Inline::TT Perl モジュール
-Summary(ko.UTF-8):	Inline::TT 펄 모줄
-Summary(nb.UTF-8):	Perlmodul Inline::TT
-Summary(pl.UTF-8):	Moduł Perla Inline::TT
-Summary(pt.UTF-8):	Módulo de Perl Inline::TT
-Summary(pt_BR.UTF-8):	Módulo Perl Inline::TT
-Summary(ru.UTF-8):	Модуль для Perl Inline::TT
-Summary(sv.UTF-8):	Inline::TT Perlmodul
-Summary(uk.UTF-8):	Модуль для Perl Inline::TT
-Summary(zh_CN.UTF-8):	Inline::TT Perl 模块
+Summary:	Inline::TT Perl module - inline support for Template Toolkit 2.x
+Summary(pl.UTF-8):	Moduł Perla Inline::TT - osadzanie kodu Template Toolkitu 2.x
 Name:		perl-Inline-TT
 Version:	0.07
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Inline/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	02905066df2cdb5178c13d00dea3c0c3
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Inline-TT/
 BuildRequires:	perl-Inline >= 0.43
 BuildRequires:	perl-Template-Toolkit >= 2.07
 BuildRequires:	perl-Test-Simple >= 0.32
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
